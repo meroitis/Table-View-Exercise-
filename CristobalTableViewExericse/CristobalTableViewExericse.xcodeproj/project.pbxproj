@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		922FC54724D9E367008D5317 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922FC54624D9E367008D5317 /* AppDelegate.swift */; };
+		922FC54924D9E367008D5317 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922FC54824D9E367008D5317 /* SceneDelegate.swift */; };
+		922FC54B24D9E367008D5317 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922FC54A24D9E367008D5317 /* ViewController.swift */; };
+		922FC54E24D9E367008D5317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922FC54C24D9E367008D5317 /* Main.storyboard */; };
+		922FC55024D9E369008D5317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922FC54F24D9E369008D5317 /* Assets.xcassets */; };
+		922FC55324D9E369008D5317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922FC55124D9E369008D5317 /* LaunchScreen.storyboard */; };
+		922FC55E24D9E369008D5317 /* CristobalTableViewExericseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922FC55D24D9E369008D5317 /* CristobalTableViewExericseTests.swift */; };
+		922FC56924D9E369008D5317 /* CristobalTableViewExericseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922FC56824D9E369008D5317 /* CristobalTableViewExericseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		922FC55A24D9E369008D5317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 922FC53B24D9E367008D5317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 922FC54224D9E367008D5317;
+			remoteInfo = CristobalTableViewExericse;
+		};
+		922FC56524D9E369008D5317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 922FC53B24D9E367008D5317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 922FC54224D9E367008D5317;
+			remoteInfo = CristobalTableViewExericse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		922FC54324D9E367008D5317 /* CristobalTableViewExericse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CristobalTableViewExericse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		922FC54624D9E367008D5317 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		922FC54824D9E367008D5317 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		922FC54A24D9E367008D5317 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		922FC54D24D9E367008D5317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		922FC54F24D9E369008D5317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		922FC55224D9E369008D5317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		922FC55424D9E369008D5317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922FC55924D9E369008D5317 /* CristobalTableViewExericseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CristobalTableViewExericseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		922FC55D24D9E369008D5317 /* CristobalTableViewExericseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CristobalTableViewExericseTests.swift; sourceTree = "<group>"; };
+		922FC55F24D9E369008D5317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922FC56424D9E369008D5317 /* CristobalTableViewExericseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CristobalTableViewExericseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		922FC56824D9E369008D5317 /* CristobalTableViewExericseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CristobalTableViewExericseUITests.swift; sourceTree = "<group>"; };
+		922FC56A24D9E369008D5317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		922FC54024D9E367008D5317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922FC55624D9E369008D5317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922FC56124D9E369008D5317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		922FC53A24D9E367008D5317 = {
+			isa = PBXGroup;
+			children = (
+				922FC54524D9E367008D5317 /* CristobalTableViewExericse */,
+				922FC55C24D9E369008D5317 /* CristobalTableViewExericseTests */,
+				922FC56724D9E369008D5317 /* CristobalTableViewExericseUITests */,
+				922FC54424D9E367008D5317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		922FC54424D9E367008D5317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				922FC54324D9E367008D5317 /* CristobalTableViewExericse.app */,
+				922FC55924D9E369008D5317 /* CristobalTableViewExericseTests.xctest */,
+				922FC56424D9E369008D5317 /* CristobalTableViewExericseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		922FC54524D9E367008D5317 /* CristobalTableViewExericse */ = {
+			isa = PBXGroup;
+			children = (
+				922FC54624D9E367008D5317 /* AppDelegate.swift */,
+				922FC54824D9E367008D5317 /* SceneDelegate.swift */,
+				922FC54A24D9E367008D5317 /* ViewController.swift */,
+				922FC54C24D9E367008D5317 /* Main.storyboard */,
+				922FC54F24D9E369008D5317 /* Assets.xcassets */,
+				922FC55124D9E369008D5317 /* LaunchScreen.storyboard */,
+				922FC55424D9E369008D5317 /* Info.plist */,
+			);
+			path = CristobalTableViewExericse;
+			sourceTree = "<group>";
+		};
+		922FC55C24D9E369008D5317 /* CristobalTableViewExericseTests */ = {
+			isa = PBXGroup;
+			children = (
+				922FC55D24D9E369008D5317 /* CristobalTableViewExericseTests.swift */,
+				922FC55F24D9E369008D5317 /* Info.plist */,
+			);
+			path = CristobalTableViewExericseTests;
+			sourceTree = "<group>";
+		};
+		922FC56724D9E369008D5317 /* CristobalTableViewExericseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				922FC56824D9E369008D5317 /* CristobalTableViewExericseUITests.swift */,
+				922FC56A24D9E369008D5317 /* Info.plist */,
+			);
+			path = CristobalTableViewExericseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		922FC54224D9E367008D5317 /* CristobalTableViewExericse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922FC56D24D9E369008D5317 /* Build configuration list for PBXNativeTarget "CristobalTableViewExericse" */;
+			buildPhases = (
+				922FC53F24D9E367008D5317 /* Sources */,
+				922FC54024D9E367008D5317 /* Frameworks */,
+				922FC54124D9E367008D5317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CristobalTableViewExericse;
+			productName = CristobalTableViewExericse;
+			productReference = 922FC54324D9E367008D5317 /* CristobalTableViewExericse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		922FC55824D9E369008D5317 /* CristobalTableViewExericseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922FC57024D9E369008D5317 /* Build configuration list for PBXNativeTarget "CristobalTableViewExericseTests" */;
+			buildPhases = (
+				922FC55524D9E369008D5317 /* Sources */,
+				922FC55624D9E369008D5317 /* Frameworks */,
+				922FC55724D9E369008D5317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				922FC55B24D9E369008D5317 /* PBXTargetDependency */,
+			);
+			name = CristobalTableViewExericseTests;
+			productName = CristobalTableViewExericseTests;
+			productReference = 922FC55924D9E369008D5317 /* CristobalTableViewExericseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		922FC56324D9E369008D5317 /* CristobalTableViewExericseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 922FC57324D9E369008D5317 /* Build configuration list for PBXNativeTarget "CristobalTableViewExericseUITests" */;
+			buildPhases = (
+				922FC56024D9E369008D5317 /* Sources */,
+				922FC56124D9E369008D5317 /* Frameworks */,
+				922FC56224D9E369008D5317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				922FC56624D9E369008D5317 /* PBXTargetDependency */,
+			);
+			name = CristobalTableViewExericseUITests;
+			productName = CristobalTableViewExericseUITests;
+			productReference = 922FC56424D9E369008D5317 /* CristobalTableViewExericseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		922FC53B24D9E367008D5317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Cristobal Romero";
+				TargetAttributes = {
+					922FC54224D9E367008D5317 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					922FC55824D9E369008D5317 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 922FC54224D9E367008D5317;
+					};
+					922FC56324D9E369008D5317 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 922FC54224D9E367008D5317;
+					};
+				};
+			};
+			buildConfigurationList = 922FC53E24D9E367008D5317 /* Build configuration list for PBXProject "CristobalTableViewExericse" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 922FC53A24D9E367008D5317;
+			productRefGroup = 922FC54424D9E367008D5317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				922FC54224D9E367008D5317 /* CristobalTableViewExericse */,
+				922FC55824D9E369008D5317 /* CristobalTableViewExericseTests */,
+				922FC56324D9E369008D5317 /* CristobalTableViewExericseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		922FC54124D9E367008D5317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922FC55324D9E369008D5317 /* LaunchScreen.storyboard in Resources */,
+				922FC55024D9E369008D5317 /* Assets.xcassets in Resources */,
+				922FC54E24D9E367008D5317 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922FC55724D9E369008D5317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922FC56224D9E369008D5317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		922FC53F24D9E367008D5317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922FC54B24D9E367008D5317 /* ViewController.swift in Sources */,
+				922FC54724D9E367008D5317 /* AppDelegate.swift in Sources */,
+				922FC54924D9E367008D5317 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922FC55524D9E369008D5317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922FC55E24D9E369008D5317 /* CristobalTableViewExericseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922FC56024D9E369008D5317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				922FC56924D9E369008D5317 /* CristobalTableViewExericseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		922FC55B24D9E369008D5317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 922FC54224D9E367008D5317 /* CristobalTableViewExericse */;
+			targetProxy = 922FC55A24D9E369008D5317 /* PBXContainerItemProxy */;
+		};
+		922FC56624D9E369008D5317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 922FC54224D9E367008D5317 /* CristobalTableViewExericse */;
+			targetProxy = 922FC56524D9E369008D5317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		922FC54C24D9E367008D5317 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				922FC54D24D9E367008D5317 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		922FC55124D9E369008D5317 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				922FC55224D9E369008D5317 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		922FC56B24D9E369008D5317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		922FC56C24D9E369008D5317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		922FC56E24D9E369008D5317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalTableViewExericse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TableViewExericse.CristobalTableViewExericse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		922FC56F24D9E369008D5317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalTableViewExericse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TableViewExericse.CristobalTableViewExericse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		922FC57124D9E369008D5317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalTableViewExericseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TableViewExericse.CristobalTableViewExericseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CristobalTableViewExericse.app/CristobalTableViewExericse";
+			};
+			name = Debug;
+		};
+		922FC57224D9E369008D5317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalTableViewExericseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TableViewExericse.CristobalTableViewExericseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CristobalTableViewExericse.app/CristobalTableViewExericse";
+			};
+			name = Release;
+		};
+		922FC57424D9E369008D5317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalTableViewExericseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TableViewExericse.CristobalTableViewExericseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CristobalTableViewExericse;
+			};
+			name = Debug;
+		};
+		922FC57524D9E369008D5317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CristobalTableViewExericseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TableViewExericse.CristobalTableViewExericseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CristobalTableViewExericse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		922FC53E24D9E367008D5317 /* Build configuration list for PBXProject "CristobalTableViewExericse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922FC56B24D9E369008D5317 /* Debug */,
+				922FC56C24D9E369008D5317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922FC56D24D9E369008D5317 /* Build configuration list for PBXNativeTarget "CristobalTableViewExericse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922FC56E24D9E369008D5317 /* Debug */,
+				922FC56F24D9E369008D5317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922FC57024D9E369008D5317 /* Build configuration list for PBXNativeTarget "CristobalTableViewExericseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922FC57124D9E369008D5317 /* Debug */,
+				922FC57224D9E369008D5317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		922FC57324D9E369008D5317 /* Build configuration list for PBXNativeTarget "CristobalTableViewExericseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922FC57424D9E369008D5317 /* Debug */,
+				922FC57524D9E369008D5317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 922FC53B24D9E367008D5317 /* Project object */;
+}
